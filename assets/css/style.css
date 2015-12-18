@@ -1,3 +1,8 @@
+body {
+	margin: 0;
+	font-family: Arial,sans-serif;
+}
+
 .primary-text{
   color:#47a0ce;
 }
@@ -6,4 +11,37 @@
 }
 .secondary-text{
   color:white;
+}
+
+.header{
+	height: 100px;
+/*	position: relative;*/
+}
+
+.top{
+	padding-left: 40px;
+}
+
+.container{
+	height: 500px;
+	overflow: auto;
+}
+
+.sidebar{
+	height: 500px;
+	width: 25%;
+	background-color: gray;
+	float: left;
+}
+
+.middle{
+	height: 500px;
+	width: 50%;
+	float: left;
+	background-color: black;
+}
+
+.footer{
+	height: 100px;
+	text-align: center;
 }
