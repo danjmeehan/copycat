@@ -12,21 +12,100 @@
   
   <body>
     <header>
-      <div class="header primary-background top">
-        <div class="logo">Logo</div>
-        <div class="button">Logout</div>
-
+      <div class="header primary-background">
+        <div class="logo">
+          <img src="assets/images/icon.png" alt="Twitter icon">
+        </div>
+        <div class="button primary-text" id="header-button">Logout</div>
       </div>
     </header>
-    <main class="top">
+
+    <main>
       <div class="container">
-        <div class="sidebar">sidebar</div>
-        <div class="middle">middle</div>
-        <div class="sidebar">sidebar</div>
+        <div class="sidebar">
+          <div class="sidebar profile">
+            <img class="gray-border" id="person-left" src="assets/images/person.png" alt="Sillhoutte">
+            <br>
+            <div class="gray-border" id="info">
+              <h2>John Doe</h2>
+              <h4> Somewhere, USA</h4>
+              <p>I like long walks on the beach.</p>
+              <hr>
+              <p>Joined in 2004</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="middle">
+          <div class="gray-border" id="follow_stats">
+            <ul id="menu">
+              <li><span class="primary-text">389</span> <span>Following</span></li>
+              <li><span class="primary-text">54</span> <span>Followers</span></li>
+            </ul>
+          </div>
+          <div class="gray-border tweets-containter">
+            <div class="tweets">
+              <div class="tweet-text">I think I tweet too much..
+              <br>
+              <span><strong>@johndoe</strong></span>
+              </div>  
+              <div class="button primary-background secondary-text" id="retweet-button">Retweet
+              </div>
+            </div>
+            <div class="tweets">
+              <div class="tweet-text">Say something!
+              <br>
+              <span><strong>@johndoe</strong></span>
+              </div>  
+              <div class="button primary-background secondary-text" id="retweet-button">Retweet
+              </div>
+            </div>
+            <div class="tweets">
+              <div class="tweet-text">I love 17th century literature.
+              <br>
+              <span><strong>@johndoe</strong></span>
+              </div>  
+              <div class="button primary-background secondary-text" id="retweet-button">Retweet
+              </div>
+            </div>
+            <div class="tweets">
+              <div class="tweet-text">Hello world, this is my first tweet!
+              <br>
+              <span><strong>@johndoe</strong></span>
+              </div>  
+              <div class="button primary-background secondary-text" id="retweet-button">Retweet
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <div class="gray-border" id="follow_suggestions">
+            <h4><strong>Who To Follow</strong></h4>
+            <img id="person-right" src="assets/images/person.png" alt="Sillhoutte">
+            <h5>Jane Doe</h5>
+            <img id="person-right" src="assets/images/person.png" alt="Sillhoutte">
+            <h5>Anon Aaron</h5>
+            <img id="person-right" src="assets/images/person.png" alt="Sillhoutte">
+            <h5>Joe Public</h5>
+          </div>
+        </div>
+      
       </div>
     </main>
+
     <footer>
-      <div class="footer primary-background">footer</div>
+      <div class="footer primary-background">
+        <div class="footer-content">
+          <img class="footer" src="assets/images/icon.png" alt="Twitter icon">
+            <ul class="secondary-text" id="menu">
+              <li>About</li>
+              <li>Company</li>
+              <li>Blog</li>
+              <li>Help</li>
+            </ul>
+        </div>
+      </div>
     </footer>
   </body>
 
